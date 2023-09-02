@@ -44,7 +44,7 @@ function EducationEntry({certification}: any) {
         <EducationContainer>
             <div className="header">
                 <a className="certification_demo"
-                   href={certification.url} target="_blank">
+                   href={certification.url}>
                     <Image src={certification.images} alt="No account" height="50px" width="50px"/>
                     <p className="header__course">
                         {certification.nameCert}
