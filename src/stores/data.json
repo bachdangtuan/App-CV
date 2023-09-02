@@ -1,0 +1,149 @@
+{
+  "basics": {
+    "name": "Nguyễn Văn Nổ",
+    "label": "Senior Mõm",
+    "image": "",
+    "email": "mõm@email.com",
+    "phone": "+91 9876543210",
+    "url": "www.github.com/sadanandpai/",
+    "summary": "Tôi là senior mõm",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "relExp": "4 years",
+    "totalExp": "6 Years",
+    "objective": "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "sadanandpai",
+        "url": "https://www.linkedin.com/in/sadanandpai/"
+      },
+      {
+        "network": "github",
+        "username": "sadanandpai",
+        "url": "https://github.com/sadanandpai/"
+      }
+    ]
+  },
+
+  "skills": {
+    "languages": [
+      { "name": "Thuyết trình", "level": 5 },
+      { "name": "Giải quyết vấn đề", "level": 5 },
+      { "name": "Làm việc nhóm", "level": 5 },
+      { "name": "Tư duy logic, sáng tạo", "level": 5 },
+      { "name": "Lãnh đạo", "level": 5 }
+    ],
+    "frameworks": [
+      { "name": "React", "level": 4 },
+      { "name": "Angular", "level": 4 }
+    ],
+    "technologies": [
+      { "name": "Algorithms", "level": 3 }
+
+    ],
+    "libraries": [
+      { "name": "jQuery", "level": 3 },
+      { "name": "Redux", "level": 3 }
+    ],
+    "databases": [{ "name": "Firebase", "level": 3 }],
+    "practices": [
+      { "name": "Component based architecture", "level": 3 }
+
+    ],
+    "tools": [
+      { "name": "Git", "level": 3 }
+
+    ]
+  },
+
+  "work": [
+    {
+      "name": "Company 1",
+      "position": "Senior Software Developer",
+      "url": "",
+      "startDate": "Apr 2021",
+      "endDate": "present",
+      "years": "2.5 years",
+      "highlights": [],
+      "summary": "* Use my extensive experience with front end development to define the structure and components for the project, making sure they are reusable\n* Keep the code quality high reviewing code from other developers and suggesting improvements\n* Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality\n* E-commerce maintenance **with Fastcommerce**, a Brazilian e-commerce platform"
+    },
+    {
+      "name": "Company 2",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "Jun 2015",
+      "endDate": "Dec 2017",
+      "years": "2.5 years",
+      "highlights": [],
+      "summary": "* Develop web applications based on Sharepoint, Drupal 8 and Episerver\n* Lead a team of 10 front end developers, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions\n* Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team\n* Keep the code and the features implemented by the other developers in accordance to the requirements"
+    },
+    {
+      "name": "Company 3",
+      "position": "Trainee Developer",
+      "url": "",
+      "startDate": "Aug 2011",
+      "endDate": "May 2015",
+      "years": "1 year",
+      "highlights": [],
+      "summary": "* Design easy user interfaces and great user experiences for the digital platforms of small companies\n* Wordpress development, including themes creation or customization, custom plugins development and training\n* E-commerce maintenance with Fastcommerce, a Brazilian e-commerce platform\n* E-commerce development with Magento, customizing preexisting themes \n* Integrate external services such as payment services, delivery, etc into Magento solutions\n* VPS configuration and optimization (Apache & Nginx)"
+    }
+  ],
+
+  "certification": [
+    {
+      "nameCert": "Prometheus Certification Associate",
+      "url": "https://www.credly.com/badges/89a1254f-c4be-4215-9b80-81e8efce1b1f/public_url",
+      "startDate": "2023",
+      "endDate": "2026",
+      "score": "83/100 %"
+    },
+    {
+      "institution": "NMAMIT, Nitte",
+      "url": "https://www.mit.edu/",
+      "studyType": "B.Tech (VTU)",
+      "area": "Computer Science",
+      "startDate": "2010",
+      "endDate": "2014",
+      "score": "8.3 CGPA",
+      "courses": []
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "MIT, University",
+      "url": "https://www.mit.edu/",
+      "studyType": "MS",
+      "area": "Cloud technology",
+      "startDate": "2014",
+      "endDate": "2016",
+      "score": "68%",
+      "courses": []
+    },
+    {
+      "institution": "NMAMIT, Nitte",
+      "url": "https://www.mit.edu/",
+      "studyType": "B.Tech (VTU)",
+      "area": "Computer Science",
+      "startDate": "2010",
+      "endDate": "2014",
+      "score": "8.3 CGPA",
+      "courses": []
+    }
+  ],
+
+  "activities": {
+    "involvements": "* Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.\n * Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.\n * Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.\n * Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+
+    "achievements": "* React and redux - A complete guide 2020 from Udemy'\n * Agile and Scrum Master Certificate from Udacity\n  * Best performer award for consistently exceeding the performance\n  * Certificate of exceptional bug finder by XYZ client\n  * Recognition zero defect delivery\n  * Best performer award for consistently exceeding the performance"
+  },
+
+  "volunteer": [],
+  "awards": []
+}
