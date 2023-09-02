@@ -12,7 +12,7 @@ RUN npm install
 
 # Sao chép các tệp cần thiết từ thư mục build sau khi chạy "npx next build"
 COPY ./.next ./.next
-
+COPY public .
 # Khai báo cổng mà ứng dụng sẽ lắng nghe
 EXPOSE 3000
 
