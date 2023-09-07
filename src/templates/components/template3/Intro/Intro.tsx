@@ -26,12 +26,12 @@ const IntroContainer = styled.div`
     &__info {
       line-height: 24px;
       &__name {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 700;
         color: ${(props) => Color(props.theme.primaryColor).toString()};
       }
       &__title {
-        font-size: 14px;
+        font-size: 16px;
         color: ${(props) => Color(props.theme.primaryColor).alpha(0.75).toString()};
         font-weight: 600;
       }
@@ -41,7 +41,7 @@ const IntroContainer = styled.div`
           &:first-of-type {
             margin-right: 10px;
           }
-          font-size: 10px;
+          font-size: 14px;
           span {
             font-weight: 700;
           }
@@ -87,14 +87,14 @@ function Intro({ intro }: any) {
         <div className="about__info">
           <p className="about__info__name">{intro.name}</p>
           <p className="about__info__title">{intro.label}</p>
-          <div className="about__info__experience">
-            <p className="about__info__experience__item">
-              Relevant Experience: <span>{intro.relExp}</span>
-            </p>
-            <p className="about__info__experience__item">
-              Total Experience: <span>{intro.totalExp}</span>
-            </p>
-          </div>
+          {/*<div className="about__info__experience">*/}
+          {/*  <p className="about__info__experience__item">*/}
+          {/*    Relevant Experience: <span>{intro.relExp}</span>*/}
+          {/*  </p>*/}
+          {/*  <p className="about__info__experience__item">*/}
+          {/*    Total Experience: <span>{intro.totalExp}</span>*/}
+          {/*  </p>*/}
+          {/*</div>*/}
         </div>
       </div>
 

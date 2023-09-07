@@ -14,8 +14,9 @@ const EducationContainer = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     &__course {
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 600;
     }
   }
@@ -35,22 +36,21 @@ function EducationEntry({ education }: any) {
   return (
     <EducationContainer>
       <div className="header">
-        <p className="header__course">
-          {education.studyType}, {education.area}
-        </p>
+        <p className="header__course">{education.institution}</p>
         <p className="header__year">
           {education.startDate} {education.endDate ? ` - ${education.endDate}` : ''}
         </p>
       </div>
-      <p className="institution">{education.institution}</p>
+      <p className="institution">{education.area}</p>
       <p className="score">
-        Secured: <span>{education.score}</span>
+        Xếp loại: <span>{education.score}</span>
       </p>
     </EducationContainer>
   );
 }
 
 export default function Education({ data }: any) {
+  console.log('data', data);
   if (!data?.length) return null;
 
   return (
